@@ -16,7 +16,13 @@
   <!-- /container -->  
   <br>
   <h4>Year:</h4>
-  <select id="selectNumber"></select>
+  <select id="selDataset" onchange="getData()">
+    <option value="2015">2015</option>
+      <option value="2016">2016</option>
+      <option value="2017">2017</option>
+      <option value="2018">2018</option>
+      <option value="2019">2019</option>
+  </select>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
  <!-- Our JavaScript -->
   <script type="text/javascript" src="static/js/state_data.js"></script>
