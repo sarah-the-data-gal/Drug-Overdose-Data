@@ -9,23 +9,25 @@ function makeChart(){
             datasets:[{
                 data:yValues,
                 label:"Death Count",
-                backgroundColor:"pink"
+                backgroundColor:"pink",
+                fill:false
                 //Utils.transparentize(
             }]
         },
         options:{
+            responsive:true,
             plugins:{
                 title:{
                     display:true,
                     text:"Drug Related Deaths 2015-2019"
                 }
-            },
-            scales:{
-                y:{
-                    min:0,
-                    max:20000
-                }
             }
+            //scales:{
+                //y:{
+                    //min:0,
+                    //max:20000
+                //}
+            //}
         }
     });
 }
