@@ -8,3 +8,6 @@
   Our group created three visualizations—a line graph, a bar graph, and a pie chart—to analyze drug overdose deaths. The line graph showed a rapid increase in drug-related deaths until 2017, after which the trend steadied before the pandemic. The data, sourced from 2019, revealed that California had the highest number of overdose deaths, likely due to its large population, as the data was not adjusted on a per-capita basis. This trend was consistent over the years, indicating no significant spikes or outliers across the United States. Monthly data from 2015 to 2019 indicated no significant changes, with the highest number of deaths occurring between November and February, peaking in December. This pattern suggests a correlation between being indoors during winter and increased rates of drug consumption, highlighting the seasonal influence on overdose deaths.
   To view these visualizations, see the main page and access the html pages. 
   To view our data cleaning process as well as the datasets used, see the resources folder, our group utilized Jupyter Notebook and Python to clean our data.
+  To view our SQL schema, see the main page. Posted below is a screenshot of the schema for your convenience.
+  ![image](https://github.com/sarah-the-data-gal/Drug-Overdose-Data/assets/159952161/2850362c-1e8a-4ff3-bd1c-12e94fbc1616)
+
