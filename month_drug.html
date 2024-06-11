@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Drug Overdoses in the US by Month</title>
+  <h1>Drug Overdoses in the US by Month</h1>   
+</head>
+<body>
+  <br>
+  <br>
+  <button onclick = "window.location.href='drug_crime.html';">Drug Crime</button>
+  <button onclick = "window.location.href='month_drug.html';">Overdoses by Month</button>
+  <button onclick = "window.location.href='drug_crime.html';">Drug Crime</button>
+  <canvas id="myChart" style="width:100%;max-width:700px"></canvas>
+  <div id="container"></div>
+  <!-- /container -->  
+  <br>
+  <h4>Year:</h4>
+  <select id="selDataset" onchange="getData()">
+    <option value="2015">2015</option>
+      <option value="2016">2016</option>
+      <option value="2017">2017</option>
+      <option value="2018">2018</option>
+      <option value="2019">2019</option>
+  </select>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+ <!-- Our JavaScript -->
+  <script type="text/javascript" src="static/js/month_data.js"></script>
+  <script type="text/javascript" src="static/js/month_logic.js"></script>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+<p>Conclusion</p>
+</body>
+</html>
